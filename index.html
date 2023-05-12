@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Task</title>
+</head>
+
+<body bgcolor="darkslategrey">
+
+    <form method="post">
+        <fieldset style="background-color: #106c63;">
+            <legend style="background-color: #009688;">Personal Data</legend>
+            <fieldset style="background-color: #459992">
+                <legend style="background-color: #009688;">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td height="75">Mohamed Ashraf</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </legend>
+                <br>
+                <br>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="First">First Name </label>
+                        </td>
+                        <td>
+                            : <input id="First" type="text" placeholder="ex Mohamed">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Second">Second Name</label>
+                        </td>
+                        <td>
+                            : <input id="Second" type="text" placeholder="ex Ashraf">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+            <br>
+            <table>
+                <tr>
+                    <td>
+                        <label for="phone">Your Phone </label>
+                    </td>
+                    <td>
+                        : <input id="phone" type="tel">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mail">Email</label>
+                    </td>
+                    <td>
+                        : <input id="mail" type="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pass">Password</label>
+                    </td>
+                    <td>
+                        : <input id="pass" type="password" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pass">re-Password</label>
+                    </td>
+                    <td>
+                        : <input id="re-pass" type="password" required>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <div>
+                <input id="male" type="radio" name="Male" value="Male">
+                <label for="male">Male</label>
+            </div>
+            <div>
+                <input id="female" type="radio" name="Femalw" value="Female">
+                <label for="female">Female</label>
+            </div>
+            <br>
+            <div>
+                <input id="St" type="checkbox" name="Student" value="student">
+                <label for="St">Student</label>
+            </div>
+            <div>
+                <input id="Gr" type="checkbox" name="Graduated" value="Graduated">
+                <label for="Gr">Graduated</label>
+            </div>
+            <br>
+            <div>
+                <label for="Uni">University</label>
+                : <select name="University" id="Uni">
+                    <option value="AUC" selected>AUC</option>
+                    <option value="GUC">GUC</option>
+                    <option value="BUC">BUC</option>
+                    <option value="MU">MU</option>
+                    <option value="CU">CU</option>
+                </select>
+            </div>
+            <br>
+            <input type="submit" name="Submit" style="background-color:#343232; color: bisque; font-size: larger;">
+        </fieldset>
+    </form>
+</body>
+
+</html>
